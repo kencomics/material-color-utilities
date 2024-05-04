@@ -1,9 +1,10 @@
 plugins {
     id("java-library")
+    id("maven-publish")
 }
 
 group = "ru.kencomics"
-version = "1.0-SNAPSHOT"
+version = "1.0"
 
 repositories {
     mavenCentral()
